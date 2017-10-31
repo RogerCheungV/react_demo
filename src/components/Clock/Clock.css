@@ -1,0 +1,12 @@
+.wrapper {
+	border: 1px solid #000;
+	text-align: center;
+}
+
+h3 {
+	color: #00f;
+}
+
+h4 {
+	color: #f00;
+}
