@@ -8,7 +8,9 @@ import React, { Component } from 'react';
 // import WarningBanner from './WarningBanner/index';
 // import NumberList from './NumberList/index';
 // import NameForm from './NameForm/index';
-import FlavorForm from './FlavorForm/index';
+// import FlavorForm from './FlavorForm/index';
+// import TemperCal from './TemperCal/index';
+import TemperateCal from './TemperateCal/index';
 
 class App extends Component {
     constructor(props) {
@@ -28,7 +30,9 @@ class App extends Component {
                 {/* <WarningBanner /> */}
                 {/* <NumberList messages={this.state.messages} /> */}
                 {/* <NameForm /> */}
-                <FlavorForm />
+                {/* <FlavorForm /> */}
+                {/* <TemperCal /> */}
+                <TemperateCal />
             </div>
         )
     }
