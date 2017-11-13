@@ -14,7 +14,12 @@ import React, { Component } from 'react';
 // import SplitPanel from './SplitPanel/index';
 // import SignUpDialog from './SignUpDialog/index';
 // import TodoList from './TodoList/index';
-import Repeat from './Repeat/index';
+// import Repeat from './Repeat/index';
+// import PropTypes from './PropTypes/index';
+// import CustomTextInput from './refs/index';
+import AutoFocusInput from './refs/AutoFocus';
+// import CreateCustomInput from './refs/createCustomInput';
+// import Parent from './refs/Parent';
 
 class App extends Component {
     constructor(props) {
@@ -52,7 +57,21 @@ class App extends Component {
                 {/* <SplitPanel left={this.contacts} right={this.chat} /> */}
                 {/* <SignUpDialog /> */}
                 {/* <TodoList {...items} lists={this.state.messages} /> */}
-                <Repeat />
+                {/* <Repeat /> */}
+                {/* <PropTypes
+                    name='nkll'
+                    age={18}
+                    bool={true}
+                    hobby={['sing', 'smile', 'drive']}
+                    obj={{ skill: 'drive', hero: 'bzhw' }}
+                    func={name => name}
+                    refer='photos'
+                    ele={<h6>我是ele</h6>}
+                /> */}
+                {/* <CustomTextInput /> */}
+                <AutoFocusInput />
+                {/* <CreateCustomInput /> */}
+                {/* <Parent /> */}
             </div>
         )
     }
